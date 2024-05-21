@@ -51,6 +51,7 @@ header h2 {
 
 header h3 {
     font-size: 36px;
+    font-weight: 600;
     color: var(--DarkBlue);
 }
 
