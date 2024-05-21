@@ -33,14 +33,13 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 50px 30px;
 }
 
 header {
     text-align: center;
-
 }
 
 header h2 {
@@ -66,4 +65,51 @@ header p {
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 50px;
     gap: 30px;
+}
+
+h5 {
+    font-weight: 600;
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.main p {
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.main .card-1 {
+    background-color: white;
+    border-radius: 5px;
+    text-align: right;
+    border-top: 4px solid var(--Cyan);
+    padding: 15px;
+}
+
+.main .card-2 {
+    background-color: white;
+    border-radius: 5px;
+    text-align: right;
+    border-top: 4px solid var(--Red);
+    padding: 15px;
+}
+
+.main .card-3 {
+    background-color: white;
+    border-radius: 5px;
+    text-align: right;
+    border-top: 4px solid var(--Orange);
+    padding: 15px;
+}
+
+.main .card-4 {
+    background-color: white;
+    border-radius: 5px;
+    text-align: right;
+    border-top: 4px solid var(--Blue);
+    padding: 15px;
 }
