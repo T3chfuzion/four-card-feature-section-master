@@ -57,5 +57,13 @@ header h3 {
 
 header p {
     max-width: 600px;
-    margin: 0 auto;    
+    margin: 0 auto; 
+    margin-top: 15px;   
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
 }
